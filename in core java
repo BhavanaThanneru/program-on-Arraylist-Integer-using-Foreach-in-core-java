@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+public class ArrayListDemo7{
+    public static void main(String[] args){
+        ArrayList<Integer> mylist = new ArrayList<Integer>();
+        mylist.add(100);
+        mylist.add(600);
+        mylist.add(700);
+        for(Integer i : mylist)
+        System.out.println(i);
+
+    }
+}
